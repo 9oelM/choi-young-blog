@@ -7,6 +7,12 @@ import Article from 'grommet/components/Article';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading'
 import MenuIcon from 'grommet/components/icons/base/Menu';
+import FixedHeadingLayout from './fixedHeading/fixedHeadingLayout.js'
+import MainContent from './mainContent/mainContent.js'
+import MainContentLayout from './mainContent/mainContentLayout.js'
+import MenuButton from './fixedHeading/menuButton.js'
+import Title from './fixedHeading/title.js'
+import Example from './slideMenu.js'
 
 const ownerName = "Choi Young";
 const footerStyles = {
@@ -21,24 +27,15 @@ const sideBarStyles = {
 
 export default ({ children }) => (
     <React.Fragment>
-    <Box full = "horizontal" pad = "small" colorIndex = "light-1" direction = "row"> 
-        <Box alignSelf = "start"> 
-        <Button  style = {{  width: "min-content"}} plain = {false} fill = {false} icon={<MenuIcon size = "medium" colorIndex = "grey-2" pad = "small" />} onClick={f=>f} href='#' ></Button></Box>
-    
-        <Box alignSelf = "center" align = "center"  full = "horizontal"><Heading style = {{padding: "0", margin: "0"}} tag = "h2" align="center">Choi Young's portfolio</Heading></Box>
-    
-    </Box>
-    <Box full = {true} direction = "row">
-    <Sidebar title = {ownerName} style = {sideBarStyles} />
-    <Article full={true} direction = "column" alignContent = "stretch">
-        <Header title = {ownerName}/>
-        <Section>
-        <Box full = {true}>
-            { children }
-            </Box>
-        </Section>
-        <Footer/>
-    </Article>
-    </Box>
+    <FixedHeadingLayout>
+        <MenuButton/>
+        <Title/>
+    </FixedHeadingLayout>
+    <Example title = "Choi Young"/>
+    <MainContentLayout>
+        <MainContent title = {ownerName}>
+            {children}
+        </MainContent>
+    </MainContentLayout>
     </React.Fragment>
 )

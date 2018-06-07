@@ -33,3 +33,4 @@ export default ({title}) => (<Sidebar colorIndex='light-2'
   <Footer pad='medium'>
   </Footer>
 </Sidebar>)
+

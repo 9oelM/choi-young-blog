@@ -121,6 +121,124 @@ var getThisYear = function getThisYear() {
 
 /***/ }),
 
+/***/ "./components/fixedHeading/fixedHeadingLayout.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__);
+var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/fixedHeadingLayout.js";
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+  var children = _ref.children;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    full: "horizontal",
+    pad: "small",
+    colorIndex: "light-1",
+    direction: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, children);
+});
+
+/***/ }),
+
+/***/ "./components/fixedHeading/menuButton.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu__ = __webpack_require__("grommet/components/icons/base/Menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu__);
+var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/menuButton.js";
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    alignSelf: "start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Button___default.a, {
+    style: {
+      width: "min-content"
+    },
+    plain: false,
+    fill: false,
+    icon: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu___default.a, {
+      size: "medium",
+      colorIndex: "grey-2",
+      pad: "small",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    }),
+    onClick: function onClick(f) {
+      return f;
+    },
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }));
+});
+
+/***/ }),
+
+/***/ "./components/fixedHeading/title.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Heading__ = __webpack_require__("grommet/components/Heading");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Heading___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Heading__);
+var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/title.js";
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    alignSelf: "center",
+    align: "center",
+    full: "horizontal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Heading___default.a, {
+    style: {
+      padding: "0",
+      margin: "0"
+    },
+    tag: "h2",
+    align: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, "Choi Young's portfolio"));
+});
+
+/***/ }),
+
 /***/ "./components/footer.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -247,7 +365,19 @@ var _jsxFileName = "/home/ubuntu/workspace/components/header.js";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu__ = __webpack_require__("grommet/components/icons/base/Menu");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fixedHeading_fixedHeadingLayout_js__ = __webpack_require__("./components/fixedHeading/fixedHeadingLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mainContent_mainContent_js__ = __webpack_require__("./components/mainContent/mainContent.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__mainContent_mainContentLayout_js__ = __webpack_require__("./components/mainContent/mainContentLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__fixedHeading_menuButton_js__ = __webpack_require__("./components/fixedHeading/menuButton.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__fixedHeading_title_js__ = __webpack_require__("./components/fixedHeading/title.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__slideMenu_js__ = __webpack_require__("./components/slideMenu.js");
 var _jsxFileName = "/home/ubuntu/workspace/components/layout.js";
+
+
+
+
+
+
 
 
 
@@ -271,110 +401,125 @@ var sideBarStyles = {};
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 29
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
-    full: "horizontal",
-    pad: "small",
-    colorIndex: "light-1",
-    direction: "row",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__fixedHeading_fixedHeadingLayout_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 30
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
-    alignSelf: "start",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Button___default.a, {
-    style: {
-      width: "min-content"
-    },
-    plain: false,
-    fill: false,
-    icon: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu___default.a, {
-      size: "medium",
-      colorIndex: "grey-2",
-      pad: "small",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26
-      }
-    }),
-    onClick: function onClick(f) {
-      return f;
-    },
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
-    alignSelf: "center",
-    align: "center",
-    full: "horizontal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading___default.a, {
-    style: {
-      padding: "0",
-      margin: "0"
-    },
-    tag: "h2",
-    align: "center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, "Choi Young's portfolio"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
-    full: true,
-    direction: "row",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__fixedHeading_menuButton_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_sidebar__["a" /* default */], {
-    title: ownerName,
-    style: sideBarStyles,
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__fixedHeading_title_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Article___default.a, {
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_15__slideMenu_js__["a" /* default */], {
+    title: "Choi Young",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__mainContent_mainContentLayout_js__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__mainContent_mainContent_js__["a" /* default */], {
+    title: ownerName,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    }
+  }, children)));
+});
+
+/***/ }),
+
+/***/ "./components/mainContent/mainContent.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__footer__ = __webpack_require__("./components/footer.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__header__ = __webpack_require__("./components/header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Section__ = __webpack_require__("grommet/components/Section");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Section___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Section__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Article__ = __webpack_require__("grommet/components/Article");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Article___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Article__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__);
+var _jsxFileName = "/home/ubuntu/workspace/components/mainContent/mainContent.js";
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+  var children = _ref.children,
+      ownerName = _ref.ownerName;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Article___default.a, {
     full: true,
     direction: "column",
     alignContent: "stretch",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_header__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__header__["a" /* default */], {
     title: ownerName,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 9
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Section___default.a, {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Section___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 10
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default.a, {
     full: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 11
     }
-  }, children)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_footer__["a" /* default */], {
+  }, children)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__footer__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 15
     }
-  }))));
+  }));
+});
+
+/***/ }),
+
+/***/ "./components/mainContent/mainContentLayout.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__);
+var _jsxFileName = "/home/ubuntu/workspace/components/mainContent/mainContentLayout.js";
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+  var children = _ref.children;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    full: true,
+    direction: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    }
+  }, children);
 });
 
 /***/ }),
@@ -411,7 +556,7 @@ var _jsxFileName = "/home/ubuntu/workspace/components/sidebar.js";
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+/* unused harmony default export */ var _unused_webpack_default_export = (function (_ref) {
   var title = _ref.title;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Sidebar___default.a, {
     colorIndex: "light-2",
@@ -473,6 +618,144 @@ var _jsxFileName = "/home/ubuntu/workspace/components/sidebar.js";
     }
   }));
 });
+
+/***/ }),
+
+/***/ "./components/slideMenu.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_burger_menu__ = __webpack_require__("react-burger-menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_burger_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_burger_menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar__ = __webpack_require__("grommet/components/Sidebar");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Header__ = __webpack_require__("grommet/components/Header");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Header___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Header__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Title__ = __webpack_require__("grommet/components/Title");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Title___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Title__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu__ = __webpack_require__("grommet/components/Menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor__ = __webpack_require__("grommet/components/Anchor");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer__ = __webpack_require__("grommet/components/Footer");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_grommet_components_Button__);
+var _jsxFileName = "/home/ubuntu/workspace/components/slideMenu.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+
+
+
+var Example =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Example, _React$Component);
+
+  function Example() {
+    _classCallCheck(this, Example);
+
+    return _possibleConstructorReturn(this, (Example.__proto__ || Object.getPrototypeOf(Example)).apply(this, arguments));
+  }
+
+  _createClass(Example, [{
+    key: "showSettings",
+    value: function showSettings(event) {
+      event.preventDefault();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var title = this.props.title;
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_burger_menu__["slide"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Header___default.a, {
+        pad: "medium",
+        justify: "between",
+        size: "small",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Title___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }, title)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default.a, {
+        flex: "grow",
+        justify: "start",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu___default.a, {
+        primary: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+        href: "#",
+        className: "active",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        }
+      }, "First"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      }, "Second"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
+      }, "Third"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer___default.a, {
+        pad: "medium",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
+      }));
+    }
+  }]);
+
+  return Example;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["a"] = (Example);
 
 /***/ }),
 
@@ -617,6 +900,13 @@ module.exports = require("grommet/components/icons/base/Menu");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-burger-menu":
+/***/ (function(module, exports) {
+
+module.exports = require("react-burger-menu");
 
 /***/ })
 

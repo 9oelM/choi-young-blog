@@ -13,4 +13,9 @@
 }*{
     font-family: 'Work Sans', sans-serif;
 }
+
+.bm-item-list{
+    height: 100%;
+    background-color: #fff;
+}
 /*# sourceMappingURL=style.css.map*/

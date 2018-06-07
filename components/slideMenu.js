@@ -1,5 +1,4 @@
 import { slide as SlideMenu } from 'react-burger-menu'
-import Sidebar from 'grommet/components/Sidebar';
 import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';
 import Box from 'grommet/components/Box';
@@ -7,8 +6,9 @@ import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Footer from 'grommet/components/Footer';
 import Button from 'grommet/components/Button';
+import MenuButton from './fixedHeading/menuButton.js'
 
-class Example extends React.Component {
+class SideBar extends React.Component {
   showSettings (event) {
     event.preventDefault();
   }
@@ -16,7 +16,7 @@ class Example extends React.Component {
   render () {
       const title = this.props.title;
     return (
-      <SlideMenu>
+      <SlideMenu customBurgerIcon = { <MenuButton/> }>
         <Header pad='medium'
     justify='between' size='small'>
     <Title>
@@ -45,4 +45,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default SideBar;

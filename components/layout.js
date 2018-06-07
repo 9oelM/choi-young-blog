@@ -12,7 +12,8 @@ import MainContent from './mainContent/mainContent.js'
 import MainContentLayout from './mainContent/mainContentLayout.js'
 import MenuButton from './fixedHeading/menuButton.js'
 import Title from './fixedHeading/title.js'
-import Example from './slideMenu.js'
+import SideBar from './slideMenu.js'
+import FakeButton from './fixedHeading/fakeButton.js'
 
 const ownerName = "Choi Young";
 const footerStyles = {
@@ -27,11 +28,12 @@ const sideBarStyles = {
 
 export default ({ children }) => (
     <React.Fragment>
-    <FixedHeadingLayout>
-        <MenuButton/>
+    <FixedHeadingLayout >
+        <SideBar title = "Choi Young"/>
         <Title/>
+        <FakeButton/> 
     </FixedHeadingLayout>
-    <Example title = "Choi Young"/>
+    
     <MainContentLayout>
         <MainContent title = {ownerName}>
             {children}

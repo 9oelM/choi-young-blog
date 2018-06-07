@@ -121,6 +121,64 @@ var getThisYear = function getThisYear() {
 
 /***/ }),
 
+/***/ "./components/fixedHeading/fakeButton.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu__ = __webpack_require__("grommet/components/icons/base/Menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu__);
+var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/fakeButton.js";
+
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+  var _React$createElement;
+
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    alignSelf: "start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Button___default.a, (_React$createElement = {
+    style: {
+      width: "min-content"
+    },
+    plain: false,
+    fill: false,
+    icon: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_icons_base_Menu___default.a, {
+      size: "medium",
+      colorIndex: "grey-2",
+      pad: "small",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    }),
+    onClick: function onClick(f) {
+      return f;
+    },
+    href: "#"
+  }, _defineProperty(_React$createElement, "style", {
+    visibility: "hidden"
+  }), _defineProperty(_React$createElement, "__source", {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  }), _React$createElement)));
+});
+
+/***/ }),
+
 /***/ "./components/fixedHeading/fixedHeadingLayout.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -135,6 +193,8 @@ var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/fixedHeadingL
 /* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
   var children = _ref.children;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    responsive: false,
+    justify: "between",
     full: "horizontal",
     pad: "small",
     colorIndex: "light-1",
@@ -218,7 +278,6 @@ var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/title.js";
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
     alignSelf: "center",
     align: "center",
-    full: "horizontal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -234,7 +293,7 @@ var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/title.js";
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }, "Choi Young's portfolio"));
+  }, "Choi Young"));
 });
 
 /***/ }),
@@ -371,7 +430,9 @@ var _jsxFileName = "/home/ubuntu/workspace/components/header.js";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__fixedHeading_menuButton_js__ = __webpack_require__("./components/fixedHeading/menuButton.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__fixedHeading_title_js__ = __webpack_require__("./components/fixedHeading/title.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__slideMenu_js__ = __webpack_require__("./components/slideMenu.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__fixedHeading_fakeButton_js__ = __webpack_require__("./components/fixedHeading/fakeButton.js");
 var _jsxFileName = "/home/ubuntu/workspace/components/layout.js";
+
 
 
 
@@ -401,39 +462,39 @@ var sideBarStyles = {};
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__fixedHeading_fixedHeadingLayout_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__fixedHeading_menuButton_js__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 31
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__fixedHeading_title_js__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_15__slideMenu_js__["a" /* default */], {
+    title: "Choi Young",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_15__slideMenu_js__["a" /* default */], {
-    title: "Choi Young",
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__fixedHeading_title_js__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_16__fixedHeading_fakeButton_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__mainContent_mainContentLayout_js__["a" /* default */], {
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__mainContent_mainContentLayout_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__mainContent_mainContent_js__["a" /* default */], {
     title: ownerName,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     }
   }, children)));
 });
@@ -629,22 +690,21 @@ var _jsxFileName = "/home/ubuntu/workspace/components/sidebar.js";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_burger_menu__ = __webpack_require__("react-burger-menu");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_burger_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_burger_menu__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar__ = __webpack_require__("grommet/components/Sidebar");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Sidebar__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Header__ = __webpack_require__("grommet/components/Header");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Header___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Header__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Title__ = __webpack_require__("grommet/components/Title");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Title___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Title__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu__ = __webpack_require__("grommet/components/Menu");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor__ = __webpack_require__("grommet/components/Anchor");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer__ = __webpack_require__("grommet/components/Footer");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_grommet_components_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Header__ = __webpack_require__("grommet/components/Header");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Header___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Header__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Title__ = __webpack_require__("grommet/components/Title");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet_components_Title___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Title__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Menu__ = __webpack_require__("grommet/components/Menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor__ = __webpack_require__("grommet/components/Anchor");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Footer__ = __webpack_require__("grommet/components/Footer");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Footer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Footer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__fixedHeading_menuButton_js__ = __webpack_require__("./components/fixedHeading/menuButton.js");
 var _jsxFileName = "/home/ubuntu/workspace/components/slideMenu.js";
 
 
@@ -672,18 +732,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Example =
+var SideBar =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(Example, _React$Component);
+  _inherits(SideBar, _React$Component);
 
-  function Example() {
-    _classCallCheck(this, Example);
+  function SideBar() {
+    _classCallCheck(this, SideBar);
 
-    return _possibleConstructorReturn(this, (Example.__proto__ || Object.getPrototypeOf(Example)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).apply(this, arguments));
   }
 
-  _createClass(Example, [{
+  _createClass(SideBar, [{
     key: "showSettings",
     value: function showSettings(event) {
       event.preventDefault();
@@ -693,11 +753,17 @@ function (_React$Component) {
     value: function render() {
       var title = this.props.title;
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_burger_menu__["slide"], {
+        customBurgerIcon: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__fixedHeading_menuButton_js__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19
+          }
+        }),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Header___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Header___default.a, {
         pad: "medium",
         justify: "between",
         size: "small",
@@ -705,44 +771,44 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 20
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Title___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet_components_Title___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 22
         }
-      }, title)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Box___default.a, {
+      }, title)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Box___default.a, {
         flex: "grow",
         justify: "start",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Menu___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Menu___default.a, {
         primary: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor___default.a, {
         href: "#",
         className: "active",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         }
-      }, "First"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+      }, "First"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         }
-      }, "Second"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Anchor___default.a, {
+      }, "Second"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Anchor___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
         }
-      }, "Third"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Footer___default.a, {
+      }, "Third"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Footer___default.a, {
         pad: "medium",
         __source: {
           fileName: _jsxFileName,
@@ -752,10 +818,10 @@ function (_React$Component) {
     }
   }]);
 
-  return Example;
+  return SideBar;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["a"] = (Example);
+/* harmony default export */ __webpack_exports__["a"] = (SideBar);
 
 /***/ }),
 
@@ -767,25 +833,37 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layout__ = __webpack_require__("./components/layout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet__ = __webpack_require__("grommet");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Card__ = __webpack_require__("grommet/components/Card");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet__ = __webpack_require__("grommet");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_grommet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_grommet__);
 var _jsxFileName = "/home/ubuntu/workspace/pages/index.js";
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet___default.a.App, {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_grommet___default.a.App, {
     centered: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "content"));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default.a, {
+    thumbnail: "/img/carousel-1.png",
+    label: "Sample Label",
+    heading: "Sample Heading",
+    description: "Sample description providing more details.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  })));
 });
 
 /***/ }),
@@ -830,6 +908,13 @@ module.exports = require("grommet/components/Box");
 /***/ (function(module, exports) {
 
 module.exports = require("grommet/components/Button");
+
+/***/ }),
+
+/***/ "grommet/components/Card":
+/***/ (function(module, exports) {
+
+module.exports = require("grommet/components/Card");
 
 /***/ }),
 

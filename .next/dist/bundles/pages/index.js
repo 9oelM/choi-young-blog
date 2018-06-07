@@ -94,7 +94,7 @@ var getThisYear = function getThisYear() {
       author = _ref$author === void 0 ? "Choi Young" : _ref$author,
       _ref$developer = _ref.developer,
       developer = _ref$developer === void 0 ? "Joel Mun" : _ref$developer;
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -148,7 +148,8 @@ var _jsxFileName = "/home/ubuntu/workspace/components/footer.js";
     alignContent: "center",
     justify: "center",
     textAlign: "center",
-    pad: "medium",
+    pad: "large",
+    separator: "top",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -234,13 +235,22 @@ var _jsxFileName = "/home/ubuntu/workspace/components/header.js";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_footer__ = __webpack_require__("./components/footer.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_header__ = __webpack_require__("./components/header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_sidebar__ = __webpack_require__("./components/sidebar.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Section__ = __webpack_require__("grommet/components/Section");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Section___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Section__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Article__ = __webpack_require__("grommet/components/Article");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Article___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Article__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Button__ = __webpack_require__("grommet/components/Button");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_grommet_components_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Section__ = __webpack_require__("grommet/components/Section");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_grommet_components_Section___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Section__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Article__ = __webpack_require__("grommet/components/Article");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_grommet_components_Article___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Article__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Box__ = __webpack_require__("grommet/components/Box");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading__ = __webpack_require__("grommet/components/Heading");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu__ = __webpack_require__("grommet/components/icons/base/Menu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu__);
 var _jsxFileName = "/home/ubuntu/workspace/components/layout.js";
+
+
+
 
 
 
@@ -255,55 +265,114 @@ var footerStyles = {
   display: 'flex',
   justifyContent: 'center'
 };
+var sideBarStyles = {};
 /* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
   var children = _ref.children;
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 23
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Box___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
+    full: "horizontal",
+    pad: "small",
+    colorIndex: "light-1",
+    direction: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
+    alignSelf: "start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Button___default.a, {
+    style: {
+      width: "min-content"
+    },
+    plain: false,
+    fill: false,
+    icon: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_grommet_components_icons_base_Menu___default.a, {
+      size: "medium",
+      colorIndex: "grey-2",
+      pad: "small",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      }
+    }),
+    onClick: function onClick(f) {
+      return f;
+    },
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
+    alignSelf: "center",
+    align: "center",
+    full: "horizontal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_grommet_components_Heading___default.a, {
+    style: {
+      padding: "0",
+      margin: "0"
+    },
+    tag: "h2",
+    align: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }, "Choi Young's portfolio"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
     full: true,
     direction: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 31
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_sidebar__["a" /* default */], {
     title: ownerName,
+    style: sideBarStyles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 32
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Article___default.a, {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Article___default.a, {
     full: true,
     direction: "column",
     alignContent: "stretch",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 33
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_header__["a" /* default */], {
     title: ownerName,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 34
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_grommet_components_Section___default.a, {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_grommet_components_Section___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 35
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_grommet_components_Box___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_grommet_components_Box___default.a, {
     full: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 36
     }
   }, children)), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_footer__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 40
     }
   }))));
 });
@@ -495,6 +564,13 @@ module.exports = require("grommet/components/Header");
 
 /***/ }),
 
+/***/ "grommet/components/Heading":
+/***/ (function(module, exports) {
+
+module.exports = require("grommet/components/Heading");
+
+/***/ }),
+
 /***/ "grommet/components/Menu":
 /***/ (function(module, exports) {
 
@@ -527,6 +603,13 @@ module.exports = require("grommet/components/Sidebar");
 /***/ (function(module, exports) {
 
 module.exports = require("grommet/components/Title");
+
+/***/ }),
+
+/***/ "grommet/components/icons/base/Menu":
+/***/ (function(module, exports) {
+
+module.exports = require("grommet/components/icons/base/Menu");
 
 /***/ }),
 

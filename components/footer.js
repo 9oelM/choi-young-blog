@@ -5,7 +5,7 @@ import Box from 'grommet/components/Box';
 
 export default () => (
 <Footer
-  size='medium' alignSelf = "end" align="center" alignContent = "center" justify = "center" textAlign = "center" pad = "medium">
+  size='medium' alignSelf = "end" align="center" alignContent = "center" justify = "center" textAlign = "center" pad = "large" separator = "top">
   <Box direction='row'
     align='center'
     pad={{"between": "medium"}}>

@@ -1,5 +1,14 @@
 const withCss = require('@zeit/next-css');
-module.exports = withCss({ /* extra optional config */ })
+const webpack = require('webpack');
+
+module.exports = withCss({ 
+  
+  plugins: [
+  new webpack.ProvidePlugin({
+    "React": "react",
+  }),
+  ]
+  /* extra optional config */ })
 
 /*
 

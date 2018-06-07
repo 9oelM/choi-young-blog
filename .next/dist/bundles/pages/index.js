@@ -193,10 +193,13 @@ var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/fixedHeadingL
 /* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
   var children = _ref.children;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_grommet_components_Box___default.a, {
+    style: {
+      position: "fixed",
+      zIndex: "9999"
+    },
     responsive: false,
     justify: "between",
     full: "horizontal",
-    pad: "small",
     colorIndex: "light-1",
     direction: "row",
     __source: {
@@ -855,13 +858,31 @@ var _jsxFileName = "/home/ubuntu/workspace/pages/index.js";
       lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default.a, {
-    thumbnail: "/img/carousel-1.png",
+    thumbnail: "https://images.pexels.com/photos/374685/pexels-photo-374685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     label: "Sample Label",
     heading: "Sample Heading",
     description: "Sample description providing more details.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default.a, {
+    thumbnail: "https://images.pexels.com/photos/374685/pexels-photo-374685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    label: "Sample Label",
+    heading: "Sample Heading",
+    description: "Sample description providing more details.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default.a, {
+    thumbnail: "https://images.pexels.com/photos/933701/pexels-photo-933701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    label: "Sample Label",
+    heading: "Sample Heading",
+    description: "Sample description providing more details.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     }
   })));
 });

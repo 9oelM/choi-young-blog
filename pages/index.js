@@ -1,5 +1,4 @@
 import Layout from "../components/layout"
-import Card from 'grommet/components/Card';
 import Grommet from 'grommet'
 
 export default () => (

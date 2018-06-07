@@ -1,6 +1,7 @@
 // _document.js
 // pages/_document.js
 import Document, { Head, Main, NextScript } from 'next/document';
+import "grommet/grommet-dxc.min.css"
 
 export default class CustomDocument extends Document {
   render() {
@@ -9,7 +10,8 @@ export default class CustomDocument extends Document {
         <Head>
         {/* This is going to be your global head */}
           <link rel = "stylesheet" href = "/_next/static/style.css" />
-          
+          <script src = "https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
         <body>
           <Main id = "main-wrapper" /> {/* each routed page will go inside here */}
@@ -20,7 +22,7 @@ export default class CustomDocument extends Document {
           }
           `}</style>
           <NextScript /> {/* You don't have to care about this. */}
-          <script src = "https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js"></script>
+          
         </body>
       </html>
     )

@@ -4,8 +4,8 @@ import Paragraph from 'grommet/components/Paragraph';
 import Box from 'grommet/components/Box';
 
 export default () => (
-<Footer justify='between'
-  size='medium'>
+<Footer
+  size='medium' alignSelf = "end" align="center" alignContent = "center" justify = "center" textAlign = "center" pad = "medium">
   <Box direction='row'
     align='center'
     pad={{"between": "medium"}}>

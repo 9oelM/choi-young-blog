@@ -7,12 +7,12 @@ import Anchor from 'grommet/components/Anchor';
 import Footer from 'grommet/components/Footer';
 import Button from 'grommet/components/Button';
 
-export default () => (<Sidebar colorIndex='neutral-1'
+export default ({title}) => (<Sidebar colorIndex='light-2'
   fixed={true}>
   <Header pad='medium'
-    justify='between'>
+    justify='between' size='small'>
     <Title>
-      Title
+      {title}
     </Title>
   </Header>
   <Box flex='grow'

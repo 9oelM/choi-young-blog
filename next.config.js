@@ -1,6 +1,5 @@
 const withCss = require('@zeit/next-css');
-module.exports = withCss({ 
-  /* extra optional config */ })
+module.exports = withCss({ /* extra optional config */ })
 
 /*
 

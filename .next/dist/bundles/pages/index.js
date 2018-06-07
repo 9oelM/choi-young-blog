@@ -197,6 +197,7 @@ var _jsxFileName = "/home/ubuntu/workspace/components/fixedHeading/fixedHeadingL
       position: "fixed",
       zIndex: "9999"
     },
+    separator: "bottom",
     responsive: false,
     justify: "between",
     full: "horizontal",
@@ -867,7 +868,7 @@ var _jsxFileName = "/home/ubuntu/workspace/pages/index.js";
       lineNumber: 8
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_grommet_components_Card___default.a, {
-    thumbnail: "https://images.pexels.com/photos/374685/pexels-photo-374685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    thumbnail: "https://images.pexels.com/photos/1030985/pexels-photo-1030985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     label: "Sample Label",
     heading: "Sample Heading",
     description: "Sample description providing more details.",

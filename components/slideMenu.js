@@ -7,7 +7,7 @@ import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Footer from 'grommet/components/Footer';
 import Button from 'grommet/components/Button';
-import MenuButton from './fixedHeading/menuButton.js'
+import MenuIcon from 'grommet/components/icons/base/Menu';
 
 class SideBar extends React.Component {
   showSettings (event) {
@@ -17,7 +17,7 @@ class SideBar extends React.Component {
   render () {
       const title = this.props.title;
     return (
-      <SlideMenu >
+      <SlideMenu customBurgerIcon= {<MenuIcon/>}>
         <Header pad='medium'
     justify='between' size='small'>
     <Title>

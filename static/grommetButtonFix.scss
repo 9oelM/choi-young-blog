@@ -1,0 +1,5 @@
+/* This stylesheet removes the collision between grommet stylesheet and react-burger-menu's button. */
+
+.grommet button:not(.grommetux-button) {
+    min-width: initial;
+}

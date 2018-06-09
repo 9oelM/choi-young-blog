@@ -1,17 +1,10 @@
 const withCss = require('@zeit/next-css');
+const withSass = require('@zeit/next-sass')
 const webpack = require('webpack');
 
-module.exports = withCss({ 
-    webpack: (config, { dev }) => {
-        config.plugins.push(
-            new webpack.ProvidePlugin({
-                "React": "react",
-                'Grommet': 'grommet'
-            })
-        )
-        return config
-    }
-  });
+module.exports = withSass(withCss({ 
+    
+  }));
   /* extra optional config */ 
 
 /*

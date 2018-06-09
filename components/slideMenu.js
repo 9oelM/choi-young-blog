@@ -17,7 +17,7 @@ class SideBar extends React.Component {
   render () {
       const title = this.props.title;
     return (
-      <SlideMenu customBurgerIcon = { <MenuButton/> }  >
+      <SlideMenu >
         <Header pad='medium'
     justify='between' size='small'>
     <Title>

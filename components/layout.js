@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../components/footer"
 import Header from "../components/header"
-import Sidebar from "../components/sidebar"
 import Button from "grommet/components/Button"
 import Section from "grommet/components/Section"
 import Article from 'grommet/components/Article';
@@ -17,22 +16,11 @@ import SideBar from './slideMenu.js'
 import FakeButton from './fixedHeading/fakeButton.js'
 
 const ownerName = "Choi Young";
-const footerStyles = {
-    position: 'fixed',
-    bottom: '0',
-    display: 'flex',
-    justifyContent: 'center',
-}
-const sideBarStyles = {
-    
-}
 
 export default ({ children }) => (
     <React.Fragment>
     <FixedHeadingLayout >
-        <SideBar title = "Choi Young"/>
         <Title/>
-        <FakeButton/> 
     </FixedHeadingLayout>
     
     <MainContentLayout>

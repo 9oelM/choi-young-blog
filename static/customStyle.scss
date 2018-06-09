@@ -1,0 +1,36 @@
+* {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 36px;
+    left: 15px;
+    top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+    background: #333;
+}
+
+/********************** overwrite ********/
+
+.bm-item-list {
+    height: 100%;
+    background-color: #fff;
+}
+
+.bm-menu-wrap {
+    left: 0px;
+}
+
+.bm-cross-button {
+    display: none;
+    width: 0;
+    height: 0;
+}

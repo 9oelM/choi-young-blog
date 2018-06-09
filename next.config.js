@@ -16,7 +16,6 @@ module.exports = withSass(withCss({
         emitWarning: dev,
       },
     };
-
     const rules = [].concat(eslintRule, config.module.rules);
     return assocPath(['module', 'rules'], rules, config);
     }

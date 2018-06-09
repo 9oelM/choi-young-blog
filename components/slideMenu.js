@@ -1,12 +1,11 @@
 import React from "react";
-import { slide as SlideMenu } from 'react-burger-menu'
+import { slide as SlideMenu } from 'react-burger-menu';
 import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';
 import Box from 'grommet/components/Box';
 import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Footer from 'grommet/components/Footer';
-import Button from 'grommet/components/Button';
 import MenuIcon from 'grommet/components/icons/base/Menu';
 
 class SideBar extends React.Component {

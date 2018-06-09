@@ -4,7 +4,7 @@ import Card from "grommet/components/Card"
 import Grommet from 'grommet'
 import SlideMenu from "../components/slideMenu"
 import MenuIcon from 'grommet/components/icons/base/Menu';
-import "../static/master.sass"
+import "../styles/master.sass"
 
 export default () => (
     <Grommet.App centered = {false}>

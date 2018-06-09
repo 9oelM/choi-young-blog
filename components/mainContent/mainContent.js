@@ -6,9 +6,9 @@ import Article from "grommet/components/Article";
 import Box from "grommet/components/Box";
 
 
-export default ({children, ownerName}) => (
+export default ({children, title}) => (
 	<Article full={true} direction = "column" alignContent = "stretch">
-		<Header title = {ownerName}/>
+		<Header title = {title}/>
 		<Section>
 			<Box full = {true}>
 				{ children }

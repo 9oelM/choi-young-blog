@@ -7,8 +7,8 @@ import "../styles/master.sass";
 
 export default () => (
 	<Grommet.App centered = {false}>
-		<SlideMenu title = {"Choi Young"}/>
-		<Layout >
+		<SlideMenu title = "Choi Young"/>
+		<Layout title = "Bio" >
 			<Bio />
 		</Layout>
 	</Grommet.App>

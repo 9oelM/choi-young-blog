@@ -1,3 +1,4 @@
+import React from "react";
 import { slide as SlideMenu } from 'react-burger-menu'
 import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';

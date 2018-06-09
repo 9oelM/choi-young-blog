@@ -1,3 +1,5 @@
+import React from "react";
+
 const getThisYear = () => new Date().getFullYear()
 
 export default ({linkToDevAccount="https://github.com/9oelm", linkToAuthorAccount = "#", author="Choi Young", developer="Joel Mun"}) => (

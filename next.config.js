@@ -2,13 +2,17 @@ const withCss = require('@zeit/next-css');
 const webpack = require('webpack');
 
 module.exports = withCss({ 
-  
-  plugins: [
-  new webpack.ProvidePlugin({
-    "React": "react",
-  }),
-  ]
-  /* extra optional config */ })
+    webpack: (config, { dev }) => {
+        config.plugins.push(
+            new webpack.ProvidePlugin({
+                "React": "react",
+                'Grommet': 'grommet'
+            })
+        )
+        return config
+    }
+  });
+  /* extra optional config */ 
 
 /*
 

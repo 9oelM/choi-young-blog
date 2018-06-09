@@ -1,10 +1,10 @@
 // _document.js
 // pages/_document.js
+import React from "react";
+import ReactDOM from "react-dom";
 import Document, { Head, Main, NextScript } from 'next/document';
 import "grommet/grommet-dxc.min.css"
 import "../static/style.css"
-import React from "react";
-import ReactDOM from "react-dom";
 
 export default class CustomDocument extends Document {
   render() {
@@ -13,14 +13,13 @@ export default class CustomDocument extends Document {
         <Head>
         {/* This is going to be your global head */}
           <link rel = "stylesheet" href = "/_next/static/style.css" />
-          <script src = "https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js"></script>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet"/>
-          
+          <script src = "https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js"></script>
         </Head>
         
         <body>
-          <Main id = "main-wrapper" /> {/* each routed page will go inside here */}
+          <Main className = "main-wrapper" /> {/* each routed page will go inside here */}
           <style jsx>{`
           #main-wrapper {
             width:100%;
@@ -33,4 +32,8 @@ export default class CustomDocument extends Document {
       </html>
     )
   }
+  
+  componentDidMount(){
+        const Grommet = require('grommet');
+    }
 }

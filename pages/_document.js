@@ -5,6 +5,8 @@ import ReactDOM from "react-dom";
 import Document, { Head, Main, NextScript } from 'next/document';
 import "../static/grommet-dxc.min.css"
 import "../static/style.css"
+import Grommet from "grommet"
+
 
 export default class CustomDocument extends Document {
   render() {
@@ -15,7 +17,7 @@ export default class CustomDocument extends Document {
           <link rel = "stylesheet" href = "/_next/static/style.css" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet"/>
-          <script src = "https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js"></script>
+          <script src = {Grommet.grommetux}></script>
         </Head>
         
         <body>
@@ -32,8 +34,4 @@ export default class CustomDocument extends Document {
       </html>
     )
   }
-  
-  componentDidMount(){
-        const Grommet = require('grommet');
-    }
 }

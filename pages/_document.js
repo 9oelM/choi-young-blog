@@ -3,7 +3,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Document, { Head, Main, NextScript } from 'next/document';
-import "grommet/grommet-dxc.min.css"
+import "../static/grommet-dxc.min.css"
 import "../static/style.css"
 
 export default class CustomDocument extends Document {

@@ -16,7 +16,7 @@ class SideBar extends React.Component {
 	render () {
 		const title = this.props.title;
 		return (
-			<SlideMenu customBurgerIcon= {<MenuIcon/>}>
+			<SlideMenu customBurgerIcon= {<MenuIcon colorIndex = "grey-2"/>}>
 				<Header pad='medium'
 					justify='between' size='small'>
 					<Title>

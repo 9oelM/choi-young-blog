@@ -10,7 +10,7 @@ export default ({children, ownerName}) => (
 	<Article full={true} direction = "column" alignContent = "stretch">
 		<Header title = {ownerName}/>
 		<Section>
-			<Box full = {true}>
+			<Box full = {true} align = "center">
 				{ children }
 			</Box>
 		</Section>

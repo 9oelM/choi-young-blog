@@ -2,3 +2,4 @@
 *.map
 .next/
 *.log
+data

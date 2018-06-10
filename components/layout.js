@@ -12,13 +12,15 @@ import MainContent from "./mainContent/mainContent.js";
 import MainContentLayout from "./mainContent/mainContentLayout.js";
 import MenuButton from "./fixedHeading/menuButton.js";
 import Title from "./fixedHeading/title.js";
-import SideBar from "./slideMenu.js";
+import SlideMenu from "./slideMenu.js";
 import FakeButton from "./fixedHeading/fakeButton.js";
+import Grommet from "grommet";
 
 const ownerName = "Choi Young";
 
 export default ({ children }) => (
-	<React.Fragment>
+	<Grommet.App centered = {false}>
+		<SlideMenu title = {"Choi Young"}/>
 		<FixedHeadingLayout >
 			<Title/>
 		</FixedHeadingLayout>
@@ -28,5 +30,5 @@ export default ({ children }) => (
 				{children}
 			</MainContent>
 		</MainContentLayout>
-	</React.Fragment>
+	</Grommet.App>
 );

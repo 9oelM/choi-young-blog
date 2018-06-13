@@ -2,10 +2,13 @@ import React from "react";
 import Layout from "../components/layout";
 import Card from "grommet/components/Card";
 import "../styles/master.sass";
+import Router from "next/router";
+import Link from "next/link";
 
 export default () => (
 
 	<Layout >
+		<p><Link href="/auth"><a>Link to Auth</a></Link></p>
 		<Card thumbnail='https://images.pexels.com/photos/374685/pexels-photo-374685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
 			label='Sample Label'
 			heading='Sample Heading'

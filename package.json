@@ -4,9 +4,9 @@
   "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development node index.js",
+    "dev": "./mongod --httpinterface && NODE_ENV=development node index.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start --p 8080"
   },
   "author": "",
   "license": "ISC",
